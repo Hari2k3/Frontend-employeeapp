@@ -1,0 +1,27 @@
+header {
+    position: sticky;
+    top: 0;
+    /* z-index: 10000000000000000000000000; */
+}
+
+.header-bar {
+    margin-top: 0;
+    background-color: white;
+    height: 80px;
+    /* position: fixed; */
+    /* z-index: 1000; */
+    top:0;
+}
+
+#logo {
+    width: 200px;
+    
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    /* padding-left: 50px; */
+    /* padding-right: 0; */
+    /* height: 80px; */
+}

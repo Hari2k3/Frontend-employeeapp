@@ -1,0 +1,29 @@
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-div {
+    margin: 20px;
+    margin-right: 0;
+    width: 50%;
+    /* height: 100vh; */
+    background-color: #e3f8fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.circle-logo {
+    width: 70%;
+    /* height: 70%; */
+    border-radius: 50%;
+}

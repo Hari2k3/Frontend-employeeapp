@@ -1,0 +1,16 @@
+.span {
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+.probation {
+    background-color: #F5ECB8;
+}
+
+.active {
+    background-color:#D3F4BE;
+}
+
+.inactive {
+    background-color: #FFBFBF;
+}

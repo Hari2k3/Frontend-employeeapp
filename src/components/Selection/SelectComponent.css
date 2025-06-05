@@ -1,0 +1,17 @@
+.form-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-element label {
+    margin-bottom: 10px;
+}
+
+select {
+    margin-top: 10px;
+    padding : 9px;
+    width: 100% ;
+    border: 1px solid lightgray;
+    background-color: rgb(247, 245, 245);
+    border-radius: 5px;
+}

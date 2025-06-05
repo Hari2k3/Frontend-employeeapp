@@ -1,0 +1,31 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    width: calc(100% - 300px);
+    background-color: whitesmoke;
+    height: 100%;
+    margin-left: 300px  ;
+}
+
+.layout-child-div {
+    margin: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(197, 197, 197);
+
+}
+
+
+
+
+
+.section-layout {
+    /* height: calc(100vh - 80px); */
+    min-height: calc(100vh - 80px);
+    padding:20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 2px 5px rgb(197, 197, 197) inset;
+}

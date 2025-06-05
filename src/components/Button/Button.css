@@ -1,0 +1,43 @@
+.button {
+    /* margin: 10px; */
+    padding : 10px; 
+    outline: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.button--blue {
+    border: 1px solid lightgray;
+    background-color: #03AEEE;
+    color: white;
+}
+
+.button--grey {
+    border: 1px solid #8a8b8f;
+    background-color: #ffffff;
+    color: #8a8b8f;
+}
+
+.button-login {
+    width: 100%;
+}
+
+.button-form {
+    margin: 10px;
+    width: 200px;
+}
+
+.clear-username {
+    background-color: rgb(218, 214, 214);
+    color: black;
+    border: none;
+    position: absolute;
+    right: 0;
+    padding: 15px;
+}
+
+*:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

@@ -1,0 +1,51 @@
+
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: rgb(252, 252, 252); */
+}
+
+.form-container > div {
+    margin: 20px;
+    width: 30%;
+}
+
+.box-container {
+    box-shadow: 50px 50px 5px rgb(0, 0, 0);
+}
+
+.address-input > label {
+    margin-bottom: 0;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: rgb(252, 252, 252); */
+}
+
+.form-container > div {
+    margin: 20px;
+    width: 30%;
+}
+
+input {
+    /* margin-top: 10px; */
+    padding : 10px;
+    width: 100% ;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: rgb(247, 245, 245);
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-element label {
+    /* margin-bottom: 10px; */
+}

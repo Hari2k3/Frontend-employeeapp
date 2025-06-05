@@ -1,0 +1,94 @@
+.employee-list-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+
+.employee-list-title-input-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.employee-list-title-filter-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.employee-list-title-filter-group > label{
+    /* max-width: 100%; */
+    min-width: fit-content;
+}
+
+.employee-list-title-filter-group > select{
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 18px;
+    background-color: #e7f9ff;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+
+.employee-list-header {
+    background-color: #e3faff;
+    display: flex;
+    flex-direction: row;
+}
+
+.employee-list-header  > h3{
+    width: 14.25%;
+}
+
+.employee-list-element {
+    display: flex;
+    flex-direction: row;
+}
+
+.employee-list-element  > * {
+    width: 14.25%;
+}
+
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.delete-confirmation-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: white;
+}
+
+.delete-confirmation-box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+}
+
+.delete-confirmation-box-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+

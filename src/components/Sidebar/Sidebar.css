@@ -1,0 +1,56 @@
+.nav-button-employees{
+    width:280px;
+    height: 50px;
+    padding: 10px;
+    background-color: #03AEEE;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.nav-button-logout{
+    width:280px;
+    height: 50px;
+    padding: 10px;
+    background-color: #03AEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.sidebar {
+    background-color: white ;
+    width: 300px;
+    height: 100vh;
+    position:fixed;
+    padding: 0;
+    justify-content: right;
+    padding-top: 20px;
+    padding-left:20px;
+box-shadow: 2px 5px 5px 0px  rgb(197, 197, 197);
+}
+
+.button-image {
+    width: 30px; 
+    height: 30px; 
+    background-color: white;
+    border-radius: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 5px;
+}
+
+.sidebar-label {
+    align-items: center;
+    font-weight: bold; 
+    color: white; 
+    margin: 10px
+}
+
+.nav a{
+    margin-top: 10px;
+}

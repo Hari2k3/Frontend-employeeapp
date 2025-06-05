@@ -1,0 +1,125 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Login Page > should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="image-div"
+    >
+      <div
+        class="circle"
+      >
+        <img
+          class="circle-logo"
+          src="/src/assets/kv-login.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="login-div"
+    >
+      <div
+        class="login-form-container"
+      >
+        <div
+          class="login-form-element"
+        >
+          <img
+            class="logo"
+            src="/src/assets/kv-logo.png"
+          />
+        </div>
+        <div
+          class="login-form-element"
+        >
+          <div
+            class="input-element"
+          >
+            <div
+              class="logindiv"
+            >
+              <label
+                class="label login-label"
+                for="Username"
+              >
+                Username
+              </label>
+              <input
+                class="input login-input"
+                id="Username"
+                name="Username"
+                placeholder=" "
+                required=""
+                type="text"
+                value=""
+              />
+              <button
+                class="button button--grey clear-username"
+                type="button"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+          <div
+            class="input-element"
+          >
+            <div
+              class="logindiv"
+            >
+              <label
+                class="label login-label"
+                for="Password"
+              >
+                Password
+              </label>
+              <input
+                class="input login-input"
+                id="Password"
+                name="Password"
+                placeholder=" "
+                required=""
+                type="Password"
+                value=""
+              />
+              <button
+                class="button button--grey clear-username"
+                type="button"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+          <p
+            class="error"
+          />
+          <div
+            style="display: flex; flex-direction: row; margin: 20px; justify-content: left;"
+          >
+            <input
+              style="width: 20px; margin-right: 10px;"
+              type="checkbox"
+            />
+            <label>
+              Show password
+            </label>
+          </div>
+          <div
+            class="login-form-element"
+          >
+            <button
+              class="button button--blue button-login"
+              disabled=""
+              type="submit"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

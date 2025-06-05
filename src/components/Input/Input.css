@@ -1,0 +1,72 @@
+.input {
+    margin-top: 20px;
+    padding : 10px;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+.login-input { 
+    width: 100% ;
+    padding : 15px;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 0px;
+    border: 1px solid lightgray;
+    background-color: white;    
+}
+
+.login-label {
+    position: absolute;
+    left:16px;
+    top: 16px;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    padding: 5px;
+    padding-top: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.form-label {
+    color: black;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.login-label:has(+ .login-input:focus),
+.login-label:has(+ .login-input:not(:placeholder-shown))
+{
+    display: block;
+    position: absolute;
+    top: -10px;
+    left:20px;
+    background-color: white;
+    padding: 5px;
+    padding-top: 0;
+    color: #03AEEE;
+}   
+
+.input-element {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    position: relative;
+    /* width: 300px; */
+}
+
+.login-input:focus {
+    border: 0;
+    border:1px solid #03AEEE;
+}
+
+.input-area-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.logindiv {
+    display: flex;
+    /* flex-direction: row; */
+}
