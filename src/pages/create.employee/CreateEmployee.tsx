@@ -11,11 +11,11 @@ export const CreateEmployee = () => {
             age: 0,
             employee_id: '',
             role: 'HR',
-            date_of_joining: '', // or some valid ISO date string,
+            dateofjoining: '', // or some valid ISO date string,
             password:'',
             status: 'ACTIVE',
             experience: 0,
-            department_id:0,
+            dept_id:1,
             address: {
                 house_no: "",
                 line1: "",
@@ -24,7 +24,7 @@ export const CreateEmployee = () => {
             }
         }
     )
-    const numbertypes = ['age','experience','department_id']
+    const numbertypes = ['age','experience','dept_id']
     const handleFormChange = (event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = event.target;
     setFormValues((prevState:any)=>({

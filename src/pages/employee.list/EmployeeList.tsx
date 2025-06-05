@@ -119,7 +119,7 @@ export const EmployeeList = () => {
 
                         <p>{employee.name}</p>
                         <p>{employee.employee_id}</p>
-                        <p>{employee.dateOfJoining}</p>
+                        <p>{(new Date(employee.dateofjoining)).toLocaleDateString()?.split("T")[0]}</p>
                         <p>{employee.role}</p>
                         <p><StatusSpan status={employee.status}/></p>
                         <p>{employee.experience}</p>

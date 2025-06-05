@@ -306,7 +306,7 @@ import type { Employee } from "../../store/employee/employee.types";
 <span class="cstat-no" title="statement not covered" >      age: employeeData.age,</span>
 <span class="cstat-no" title="statement not covered" >      employee_id: employeeData.employee_id,</span>
 <span class="cstat-no" title="statement not covered" >      role: employeeData.role,</span>
-<span class="cstat-no" title="statement not covered" >      dateOfJoining: employeeData.dateOfJoining ?? "",</span>
+<span class="cstat-no" title="statement not covered" >      dateofjoining: employeeData.dateofjoining ?? "",</span>
 <span class="cstat-no" title="statement not covered" >      status: employeeData.status,</span>
 <span class="cstat-no" title="statement not covered" >      experience: employeeData.experience,</span>
 <span class="cstat-no" title="statement not covered" >      dept_id:employeeData.dept_id ?? 1,</span>
@@ -342,7 +342,7 @@ import type { Employee } from "../../store/employee/employee.types";
   // setFormValues((prev) =&gt; {
   //       prev?{
   //       ...prev,
-  //       [name]: name === "age" || name === "experience" || name === "department_id"
+  //       [name]: name === "age" || name === "experience" || name === "dept_id"
   //           ? Number(value)
   //           : value
   //       } : prev
@@ -373,10 +373,10 @@ import type { Employee } from "../../store/employee/employee.types";
 <span class="cstat-no" title="statement not covered" >  age: Number(formValues.age),</span>
 <span class="cstat-no" title="statement not covered" >  employee_id: formValues.employee_id,</span>
 <span class="cstat-no" title="statement not covered" >  role: formValues.role,</span>
-<span class="cstat-no" title="statement not covered" >  date_of_joining: formValues.dateOfJoining,</span>
+<span class="cstat-no" title="statement not covered" >  dateofjoining: formValues.dateofjoining,</span>
 <span class="cstat-no" title="statement not covered" >  status: formValues.status,</span>
 <span class="cstat-no" title="statement not covered" >  experience: Number(formValues.experience),</span>
-<span class="cstat-no" title="statement not covered" >  department_id: Number(formValues.dept_id),</span>
+<span class="cstat-no" title="statement not covered" >  dept_id: Number(formValues.dept_id),</span>
 //   address: formValues.address,
 <span class="cstat-no" title="statement not covered" >  address: {</span>
 <span class="cstat-no" title="statement not covered" >        house_no: formValues.address.house_no,</span>

@@ -1,0 +1,23 @@
+.employee-details-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto auto; */
+}
+
+.employee-details-container > div {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.employee-details-container > div > h3 {
+    color: grey;
+}
+
+.partition-line {
+    width: 100vh;
+    border-bottom: 1px;
+}

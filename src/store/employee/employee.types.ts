@@ -38,7 +38,7 @@ export type Status = (typeof EmployeeStatus)[keyof typeof EmployeeStatus];
 //   address: Address;
 //   password: string;
 //   role: string;
-//   dateOfJoining: Date;
+//   dateofjoining: Date;
 //   experience: number;
 //   status: string;
 //   departmentId: number | string;
@@ -49,7 +49,7 @@ export interface Employee{
         age: number,
         employee_id: string,
         role: string,
-        dateOfJoining: string,
+        dateofjoining: string,
         status: string,
         experience: number,
         dept_id: number,

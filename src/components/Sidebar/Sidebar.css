@@ -9,6 +9,17 @@
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
 }
+.nav-button-profile{
+    width:280px;
+    height: 50px;
+    padding: 10px;
+    background-color: #03AEEE;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
 .nav-button-logout{
     width:280px;
     height: 50px;
@@ -16,7 +27,7 @@
     background-color: #03AEEE;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
 }
@@ -33,7 +44,17 @@
 box-shadow: 2px 5px 5px 0px  rgb(197, 197, 197);
 }
 
-.button-image {
+.button-image-employee {
+    width: 30px; 
+    height: 30px; 
+    background-color: white;
+    border-radius: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 5px;
+}
+.button-image-profile {
     width: 30px; 
     height: 30px; 
     background-color: white;
@@ -53,4 +74,9 @@ box-shadow: 2px 5px 5px 0px  rgb(197, 197, 197);
 
 .nav a{
     margin-top: 10px;
+}
+
+.img{
+    width: 20px;
+    height: 20px;
 }

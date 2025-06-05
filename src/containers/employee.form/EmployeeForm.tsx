@@ -23,10 +23,10 @@ interface Props {
         age: number,
         employee_id: string,
         role: string,
-        date_of_joining: string,
+        dateofjoining: string,
         status: string,
         experience: number,
-        department_id: number,
+        dept_id: number,
         address: {
             house_no: string,
             line1: string,
@@ -77,12 +77,12 @@ const [editEmployee, { isLoading: isEditing }] = useEditEmployeeMutation();
             <div className="layout-child-div">
                 <div className="form-container">
                     <Input label="Employee Name" name="name" type="text" variant="input" placeholder="Employee name" value={props.values.name} onchange={props.formOnChange} />
-                    <Input label="Joining Date" name="date_of_joining" type="string" variant="input" placeholder="Joining Date" value={props.values.date_of_joining} onchange={props.formOnChange}/>
+                    <Input label="Joining Date" name="dateofjoining" type="string" variant="input" placeholder="Joining Date" value={props.values.dateofjoining} onchange={props.formOnChange}/>
                     <Input label="Email" name="email" type="text" variant="input" placeholder="Email" value={props.values.email} onchange={props.formOnChange}/>
                     <Input label="Age" name="age" type="number" variant="input" placeholder="Age" value={props.values.age as unknown as string} onchange={props.formOnChange}/>
 
 
-                    <SelectComponent label="Department" name="department_id" options={departmentOptions} value={(departmentOptions.find((d) => d.key.toString() === props.values?.department_id?.toString())?.key)?.toString() || ""} onchange={props.formOnChange}/>
+                    <SelectComponent label="Department" name="dept_id" options={departmentOptions} value={(departmentOptions.find((d) => d.key.toString() === props.values?.dept_id?.toString())?.key)?.toString() || ""} onchange={props.formOnChange}/>
                     <SelectComponent label="Role" name="role" options={roles} value={props.values.role} onchange={props.formOnChange}/>
                     <SelectComponent label="Status" name="status" options={status} value={props.values.status.toUpperCase()} onchange={props.formOnChange}/>
 

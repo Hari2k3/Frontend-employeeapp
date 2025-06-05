@@ -10,6 +10,7 @@ import { EmployeeDetails } from './pages/employee.details/EmployeeDetails';
 import { EditEmployee } from './pages/edit.employee/EditEmployee';
 import React from 'react';
 import { lazy,Suspense } from 'react';
+import { Profile } from './pages/profile/profile';
 
 const isLoggedIn = () => {
   const token = localStorage.getItem("isLoggedIn")
@@ -51,6 +52,14 @@ const router = createBrowserRouter ([
     ],
     errorElement:<NotFound />
 
+  },
+  {
+    path: "/profile",
+    element: <Layout/>,
+    children: [
+      { index: true, element:<Profile/>}
+
+    ]
   },
   {
     path: '*',
