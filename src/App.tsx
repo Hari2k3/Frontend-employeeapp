@@ -37,10 +37,10 @@ const router = createBrowserRouter ([
     path: "/",
     element: <Navigate to="/employees" />,
   },
-  // {
-  //   path: "/login",
-  //   element: <PublicRouteChecker><Suspense fallback={<div>Loading</div>}> <Login /></Suspense>  </PublicRouteChecker> ,
-  // },
+  {
+    path: "/login",
+    element: <PublicRouteChecker><Suspense fallback={<div>Loading</div>}> <Login /></Suspense>  </PublicRouteChecker> ,
+  },
   {
     path: "/employees",
     element: <Layout/>,
